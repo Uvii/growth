@@ -1,0 +1,201 @@
+.parentSlide {
+  position: relative;
+  top: -8px;
+  left: -8px;
+  right: 0px;
+  max-width: 100%;
+  height: 500px;
+}
+
+.childSlide {
+  position: absolute;
+  overflow: hidden;
+  left: 0px;
+  top: 0px;
+  min-width: 100%;
+  height: 500px;
+  opacity: 0.8
+}
+.orgName {
+  position: absolute;
+  background-color: white;
+  width: 200px;
+  height: 70px;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+}
+
+.orgName span {
+  font-size: 25px;
+  width: 70%;
+  padding: 30px;
+}
+
+.orgName span: nth-child(2) {
+  color: #968916;
+}
+
+.navTitle{
+  max-height: 20px;
+}
+
+.offerings ul {
+  position: absolute;
+  list-style: none;
+  top: 0px;
+  left: 220px;
+}
+
+.offerings ul li {
+  position: relative;
+  float: left;
+  padding: 10px 30px;
+  color: white;
+  text-align: center;
+  border-right: 1px solid;
+}
+.offerings ul li:last-child{
+ border-right: none;
+}
+.offerings ul li:hover{
+  border-bottom: 1px solid #ffd700;
+}
+.booking {
+  position: absolute;
+  background-color: #ffd700;
+  float: left;
+  height: 45px;
+  width: 200px;
+  top: 0px;
+  right: 15px;
+  text-align: center;
+  padding-top: 25px;
+  cursor: pointer;
+}
+.contactNumb {
+  position: absolute;
+  top: 70px;
+  right: 15px;
+  background-color: #696969;
+  width: 190px;
+  text-align: center;
+  color: white;
+  padding: 2px;
+}
+.callIcon {
+  position: relative;
+  left: -3px;
+  top: 7px;
+}
+
+.bannerTxt {
+  position: absolute;
+  top: 200px;
+  left: 450px;
+  color: white;
+}
+.dentistName{
+  font-size:  40px;
+  margin: inherit;
+}
+.font20 {
+  font-size: 15px;
+  text-align: center;
+}
+.specialist {
+  position: absolute;
+  margin-top: -24px;
+  left: 0;
+  width: 100%;
+}
+.individual {
+  width: 50%;
+  float: left;
+}
+.imgDiv {
+  width: 40%;
+  float: left;
+}
+.imgDiv2 {
+  width: 55%;
+  padding-top: 15px;
+  float: left;
+}
+.inheritMargin{
+  margin: inherit;
+}
+.heightOverflow {
+  max-height: 244px;
+}
+.qualities {
+  position: relative;
+  background-color: #F5ECCE;
+  float: left;
+  padding-top: 50px;
+  width: 99.5%;
+}
+.quality1 {
+  position: relative;
+  left: 90px;
+  width: 45%;
+  float: left;
+}
+.right {
+  left: 200px;
+}
+.rightBorder {
+  border-right: 1px solid ;
+}
+.quality2 {
+  position: relative;
+  left: 200px;
+  width: 40%;
+  float: left;
+}
+.mar10 {
+  margin-top: 20px
+}
+
+.services {
+  position: absolute;
+  margin-top: 400px;
+  left: 575px;
+}
+.imgView  {
+  position: absolute;
+  left: -400px;
+  float: left;
+}
+.imgView img {
+  position: relative;
+  border-radius: 60%;
+  opacity: 0.5;
+  float: left;
+}
+
+.location {
+  position: absolute;
+  margin-top: 400px;
+  width: 100%;
+  font-size: 20px;
+  background-color: #4C4746;
+  color: white;
+  padding: 5px;
+}
+.alignRight {
+  position: relative;
+  left:  950px;
+  bottom: 10px;
+}
+
+.margin10 {
+  margin: 10px;
+}
+
+.dateTable {
+  background-color: white;
+  border: 1px solid;
+  color: #4C4746;
+  cursor: pointer;
+}
